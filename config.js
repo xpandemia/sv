@@ -1,2 +1,2 @@
 //config/
-console.log("→→ Config Ready ")
+console.log("→→ Config.Soap Ready ")
