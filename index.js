@@ -1,3 +1,3 @@
-// index.js
-require('./soap/index')
-console.log("base Work_ready");
+// soap.index.js
+require('./apps/soap/index')
+console.log(" → base Work_ready");
