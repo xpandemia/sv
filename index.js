@@ -1,3 +1,4 @@
 // soap.index.js
-require('./apps/soap/index')
 console.log(" → base Work_ready");
+require('./config/config.js')
+require('./apps/soap/index')

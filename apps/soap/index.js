@@ -1,2 +1,2 @@
 //index of SOAP_exp
-console.log("soap index Work_ready"); 
+console.log("→→→ Soap index Work_ready");
