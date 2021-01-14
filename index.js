@@ -1,2 +1,3 @@
-//index of SVOD_exp
-console.log("Work_ready"); 
+// index.js
+require('./soap/index')
+console.log("Work_ready");
