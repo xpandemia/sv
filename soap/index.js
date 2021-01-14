@@ -1,2 +1,2 @@
-//index of SVOD_exp
+//index of SOAP_exp
 console.log("Work_ready"); 
