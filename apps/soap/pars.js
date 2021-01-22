@@ -28,6 +28,7 @@ xml2js.parseString(xml, { mergeAttrs: true }, (err, result) => {
         console.log("Асинхронная запись файла завершена. Содержимое файла:");
         let data = fs.readFileSync("data.json", "utf8");
         console.log(data);  // выводим считанные данные
+    
     });
     //--file
 });

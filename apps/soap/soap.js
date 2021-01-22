@@ -41,6 +41,21 @@ fs.writeFile("data.xml", response.data, function(error){
     console.log("Асинхронная запись файла завершена. Содержимое файла:");
     let data = fs.readFileSync("data.xml", "utf8");
     console.log(data);  // выводим считанные данные
+//
+    //parse start
+    var target = new Array();
+
+    // get answers
+    var EventDate = data;
+    for (var i = 0; i < FirstName.length; i++) {
+        si = target.push(FirstName[i].FirstName);
+        console.log(si);
+  //parse end
+    }
+
+
+
+
 });
 //--file
 

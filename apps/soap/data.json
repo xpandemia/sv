@@ -1,0 +1,471 @@
+{
+    "SOAP-ENV:Envelope": {
+        "xmlns:SOAP-ENV": [
+            "http://schemas.xmlsoap.org/soap/envelope/"
+        ],
+        "xmlns:xsd": [
+            "http://www.w3.org/2001/XMLSchema"
+        ],
+        "xmlns:xsi": [
+            "http://www.w3.org/2001/XMLSchema-instance"
+        ],
+        "xmlns:SOAP-ENC": [
+            "http://schemas.xmlsoap.org/soap/encoding/"
+        ],
+        "SOAP-ENV:Body": [
+            {
+                "SOAP-ENV:encodingStyle": [
+                    "http://schemas.xmlsoap.org/soap/encoding/"
+                ],
+                "xmlns:NS1": [
+                    "urn:OrionProIntf-IOrionPro"
+                ],
+                "xmlns:NS2": [
+                    "urn:OrionProIntf"
+                ],
+                "NS1:GetEventsResponse": [
+                    {
+                        "return": [
+                            {
+                                "href": [
+                                    "#1"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "SOAP-ENV:TOperationResultEvents": [
+                    {
+                        "id": [
+                            "1"
+                        ],
+                        "xsi:type": [
+                            "NS2:TOperationResultEvents"
+                        ],
+                        "Success": [
+                            {
+                                "_": "true",
+                                "xsi:type": [
+                                    "xsd:boolean"
+                                ]
+                            }
+                        ],
+                        "ServiceError": [
+                            {
+                                "xsi:nil": [
+                                    "true"
+                                ]
+                            }
+                        ],
+                        "OperationResult": [
+                            {
+                                "xsi:type": [
+                                    "SOAP-ENC:Array"
+                                ],
+                                "SOAP-ENC:arrayType": [
+                                    "NS2:TEvent[2]"
+                                ],
+                                "item": [
+                                    {
+                                        "href": [
+                                            "#2"
+                                        ]
+                                    },
+                                    {
+                                        "href": [
+                                            "#3"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "SOAP-ENV:TEvent": [
+                    {
+                        "id": [
+                            "2"
+                        ],
+                        "xsi:type": [
+                            "NS2:TEvent"
+                        ],
+                        "EventId": [
+                            {
+                                "_": "{C67689AD-2122-4093-8BE1-A9770CBADDB6}",
+                                "xsi:type": [
+                                    "xsd:string"
+                                ]
+                            }
+                        ],
+                        "EventTypeId": [
+                            {
+                                "_": "28",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ],
+                        "EventDate": [
+                            {
+                                "_": "2020-12-16T15:32:45.000+03:00",
+                                "xsi:type": [
+                                    "xsd:dateTime"
+                                ]
+                            }
+                        ],
+                        "Description": [
+                            {
+                                "_": "11: Выход   Турникет12_5,   Считыватель 2, Прибор ",
+                                "xsi:type": [
+                                    "xsd:string"
+                                ]
+                            }
+                        ],
+                        "ComputerId": [
+                            {
+                                "_": "1",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ],
+                        "ComPortNumber": [
+                            {
+                                "_": "10",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ],
+                        "PKUAddress": [
+                            {
+                                "_": "0",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ],
+                        "DevAddress": [
+                            {
+                                "_": "5",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ],
+                        "ZoneAddress": [
+                            {
+                                "_": "2",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ],
+                        "AccessPointId": [
+                            {
+                                "_": "11",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ],
+                        "AccessPointName": [
+                            {
+                                "_": "Турникет12_5",
+                                "xsi:type": [
+                                    "xsd:string"
+                                ]
+                            }
+                        ],
+                        "AccessZoneId": [
+                            {
+                                "_": "-1",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ],
+                        "PassMode": [
+                            {
+                                "_": "2",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ],
+                        "CardNo": [
+                            {
+                                "_": "DC0000A462CA2101",
+                                "xsi:type": [
+                                    "xsd:string"
+                                ]
+                            }
+                        ],
+                        "PersonId": [
+                            {
+                                "_": "384",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ],
+                        "LastName": [
+                            {
+                                "_": "Белоус",
+                                "xsi:type": [
+                                    "xsd:string"
+                                ]
+                            }
+                        ],
+                        "FirstName": [
+                            {
+                                "_": "Ирина",
+                                "xsi:type": [
+                                    "xsd:string"
+                                ]
+                            }
+                        ],
+                        "MiddleName": [
+                            {
+                                "_": "Александровна",
+                                "xsi:type": [
+                                    "xsd:string"
+                                ]
+                            }
+                        ],
+                        "BirthDate": [
+                            {
+                                "_": "1964-03-14T00:00:00.000+03:00",
+                                "xsi:type": [
+                                    "xsd:dateTime"
+                                ]
+                            }
+                        ],
+                        "TabNum": [
+                            {
+                                "xsi:type": [
+                                    "xsd:string"
+                                ]
+                            }
+                        ],
+                        "ItemType": [
+                            {
+                                "_": "READER",
+                                "xsi:type": [
+                                    "xsd:string"
+                                ]
+                            }
+                        ],
+                        "SectionId": [
+                            {
+                                "_": "-1",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ],
+                        "ReaderId": [
+                            {
+                                "_": "218",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": [
+                            "3"
+                        ],
+                        "xsi:type": [
+                            "NS2:TEvent"
+                        ],
+                        "EventId": [
+                            {
+                                "_": "{3B7B8EBD-5397-4376-9439-A59A14D3EF7F}",
+                                "xsi:type": [
+                                    "xsd:string"
+                                ]
+                            }
+                        ],
+                        "EventTypeId": [
+                            {
+                                "_": "28",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ],
+                        "EventDate": [
+                            {
+                                "_": "2020-12-16T15:32:59.000+03:00",
+                                "xsi:type": [
+                                    "xsd:dateTime"
+                                ]
+                            }
+                        ],
+                        "Description": [
+                            {
+                                "_": "10: Выход   Турникет12_4,   Считыватель 2, Прибор ",
+                                "xsi:type": [
+                                    "xsd:string"
+                                ]
+                            }
+                        ],
+                        "ComputerId": [
+                            {
+                                "_": "1",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ],
+                        "ComPortNumber": [
+                            {
+                                "_": "10",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ],
+                        "PKUAddress": [
+                            {
+                                "_": "0",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ],
+                        "DevAddress": [
+                            {
+                                "_": "4",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ],
+                        "ZoneAddress": [
+                            {
+                                "_": "2",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ],
+                        "AccessPointId": [
+                            {
+                                "_": "10",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ],
+                        "AccessPointName": [
+                            {
+                                "_": "Турникет12_4",
+                                "xsi:type": [
+                                    "xsd:string"
+                                ]
+                            }
+                        ],
+                        "AccessZoneId": [
+                            {
+                                "_": "-1",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ],
+                        "PassMode": [
+                            {
+                                "_": "2",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ],
+                        "CardNo": [
+                            {
+                                "_": "DC0000A462CA2101",
+                                "xsi:type": [
+                                    "xsd:string"
+                                ]
+                            }
+                        ],
+                        "PersonId": [
+                            {
+                                "_": "384",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ],
+                        "LastName": [
+                            {
+                                "_": "Белоус",
+                                "xsi:type": [
+                                    "xsd:string"
+                                ]
+                            }
+                        ],
+                        "FirstName": [
+                            {
+                                "_": "Ирина",
+                                "xsi:type": [
+                                    "xsd:string"
+                                ]
+                            }
+                        ],
+                        "MiddleName": [
+                            {
+                                "_": "Александровна",
+                                "xsi:type": [
+                                    "xsd:string"
+                                ]
+                            }
+                        ],
+                        "BirthDate": [
+                            {
+                                "_": "1964-03-14T00:00:00.000+03:00",
+                                "xsi:type": [
+                                    "xsd:dateTime"
+                                ]
+                            }
+                        ],
+                        "TabNum": [
+                            {
+                                "xsi:type": [
+                                    "xsd:string"
+                                ]
+                            }
+                        ],
+                        "ItemType": [
+                            {
+                                "_": "READER",
+                                "xsi:type": [
+                                    "xsd:string"
+                                ]
+                            }
+                        ],
+                        "SectionId": [
+                            {
+                                "_": "-1",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ],
+                        "ReaderId": [
+                            {
+                                "_": "210",
+                                "xsi:type": [
+                                    "xsd:int"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
